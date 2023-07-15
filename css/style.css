@@ -1,0 +1,80 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(70, 62, 50);
+    padding: 20px;
+    background-color: #d8d8d8;
+    transition: background-color 0.5s, color 0.5s;
+}
+.modo-claro{
+    background-color: #d8d8d8;
+}
+
+.modo-escuro{
+    background-color: #111;
+    color: #d8d8d8 ;
+}
+
+
+#botao-adicionar {
+    margin-left: 15px;
+    padding: 5px;
+    background-color:rgb(70, 62, 50);
+    color: white;
+    border: none;
+    height: 45px;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+#lista-tarefas {
+    margin-top: 20px;
+}
+
+#campo-tarefa{
+    border-radius: 100px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 400px;
+    border: none;
+    
+}
+
+.tarefa {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #f7f7f7;
+    border-radius: 4px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #e42828; 
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botao-excluir{
+   border: none;
+   border-radius: 100px;
+   height: 35px;
+   font-size: 13px;
+   padding: 0 15px;
+   margin-left: 55px;
+}
+
+.cabeçalho img{
+    width: 100px;
+}
